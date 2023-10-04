@@ -7,7 +7,8 @@ public class Journal
 
     public void Write()
     {
-        
+        Prompts prompt = new Prompts();
+        prompt.newquestion();
     }
     public void Display()
     {
