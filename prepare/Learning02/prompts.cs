@@ -41,6 +41,6 @@ public class Prompts
         using (StreamWriter new_text = File.AppendText(saving_file))
         {
             new_text.Write($"{list_entry[0]}\n");
-        } 
+        }
     }
 }
