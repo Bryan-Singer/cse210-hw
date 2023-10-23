@@ -7,7 +7,7 @@ public class Word
 
     public Word(string text)
     {
-        _text = text
+        _text = text;
     }
     public void Hide()
     {
